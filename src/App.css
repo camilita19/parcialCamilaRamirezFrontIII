@@ -3,40 +3,58 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
+}
+.contenedor-formulario{
+     
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+  padding: 2em; 
+  border: 10px solid rgb(86, 44, 192);
+  border-radius: 20px; 
+  margin-bottom: 10px;  
+ text-align: center;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0); 
+
+
+
+}
+.img-card{
+
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+
+ 
+}
+.h2{
+ font: bold;
+ text-align: center;
+ color: black;
+
+}
+.estilo-casillas{
+  flex-wrap: wrap;
+  align-items: center;
+  width:180px;
+	padding:3px 10px;
+  margin:8px 0;
+	display:inline-block;
+  color: rgb(64, 57, 57);
+ 
+
+
+}
+.boton{
+  background-color: rgb(13, 89, 157);
+  color: white;
+  margin-top: 20px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
